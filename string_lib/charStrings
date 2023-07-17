@@ -1,0 +1,18 @@
+public class charsString {
+    public static void main(String[] args) {
+
+        // charAt
+        String str = "helllo";
+        char ch = str.charAt(2);
+        System.out.println(ch);
+
+        // getBytes
+        byte b[] = str.getBytes();
+        System.out.println(b);
+
+        // toCharArray
+        char arr[] = str.toCharArray();
+        System.out.println(arr);
+
+    }
+}
