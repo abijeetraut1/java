@@ -22,10 +22,14 @@ public class StringFunc {
         String convertTolowerCase = str.toLowerCase();
         System.out.println("convert to lowercase" + convertTolowerCase);
 
-        // Compare 2 String 
+        // Compare 2 String
         String s1 = "hello";
         String s2 = "world";
         int out = s1.compareTo(s2);
         System.out.println(out);
+
+        // isEmpty
+        String emptyString = "";
+        System.out.println(emptyString.isEmpty());
     }
 }
