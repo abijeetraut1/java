@@ -30,6 +30,8 @@ public class App {
         JButton divide = new JButton("/");
 
         // event listener based on the button clicked
+     
+     // when click ADD button
         plus.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 try {
@@ -45,6 +47,7 @@ public class App {
             }
         });
 
+     // when click subtract button
         minus.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 try {
@@ -60,6 +63,7 @@ public class App {
             }
         });
 
+     // when click MULTIPLY button
         multiply.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 try {
@@ -75,6 +79,7 @@ public class App {
             }
         });
 
+     // when click DIVIDE button
         divide.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 try {
