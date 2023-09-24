@@ -95,7 +95,7 @@ public class App {
         panel.add(multiply);
         panel.add(divide);
 
-        frame.add(panel, BorderLayout.NORTH);
+        frame.add(panel, BorderLayout.NORTH);  // BORDER LAYOUT IS NOT NECESSARY HERE
         
         frame.add(new JScrollPane(resultArea), BorderLayout.CENTER);  // NOTE: WITHOUT OUT DEFINING BORDER LAYOUT IN IT
         
