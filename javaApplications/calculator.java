@@ -10,6 +10,10 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.BorderLayout; 
  
+// awt = ABSTRACT WINDOW TOOLKIT
+// AWT = handles all the foundation of the website eg: adding custom design and adding event listener to the button
+
+// swing = for creating a java web interface it controlls all the GRAPHICAL SECTION (GUI) of the Java Applicaton
 
 public class App {
     public static void main(String[] args) {
